@@ -60,7 +60,7 @@ export default function App() {
       <EmoteIcon/>
       </Grid>
 
-      <EmoteInfo/>
+      {/* <EmoteInfo/> */}
       </Grid>
 
 

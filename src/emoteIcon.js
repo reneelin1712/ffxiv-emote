@@ -114,7 +114,7 @@ export default function EmoteIcon() {
     
     )}
 
-    <Button variant="outlined" onClick={handleClickOpen}>
+    <Button  onClick={handleClickOpen}>
     <Avatar style={{ borderRadius: 0 }} alt="Eat Pizza" src="https://xivapi.com/i/064000/064413_hr1.png" />
      
       </Button>
