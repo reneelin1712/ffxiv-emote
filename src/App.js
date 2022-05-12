@@ -1,16 +1,16 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
+import { useState } from "react";
+// import axios from "axios";
 import { Grid, Button } from "@material-ui/core";
 
 import EmoteIcon from './emoteIcon'
-import EmoteInfo from './emoteInfo'
+// import EmoteInfo from './emoteInfo'
 
 
 
 export default function App() {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  // const [data, setData] = useState(null);
+  // const [loading, setLoading] = useState(true);
+  // const [error, setError] = useState(null);
 
   // const fflink = 'https://xivapi.com/item/1675?private_key=cca258340a9340aab1d0a6b134e4606e9016935b3ef04338a209bc8971f62a25'
   // const link = `https://pokeapi.co/api/v2/pokemon?limit=900`

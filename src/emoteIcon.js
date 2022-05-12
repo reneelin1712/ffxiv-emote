@@ -10,19 +10,18 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
-import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 
 import EmoteCard from './emoteCard'
 
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-}));
+// const Item = styled(Paper)(({ theme }) => ({
+//   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+//   ...theme.typography.body2,
+//   padding: theme.spacing(1),
+//   textAlign: 'center',
+//   color: theme.palette.text.secondary,
+// }));
 
 
 const iconList = [
@@ -82,7 +81,7 @@ BootstrapDialogTitle.propTypes = {
 export default function EmoteIcon() {
   const [open, setOpen] = React.useState(false);
   const classes = useStyles();
-  const [iconsList, setIconsList] = React.useState(false);
+  // const [iconsList, setIconsList] = React.useState(false);
 
   useEffect(()=>{
     fetch('https://xivapi.com/emote')
