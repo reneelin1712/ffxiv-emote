@@ -43,9 +43,7 @@ export default function App() {
           >
             Prev
           </Button>
-   
-
-
+  
           <Button
             // onClick={() => turnPage({ next: nextPage })}
             varient="contained"
@@ -63,9 +61,6 @@ export default function App() {
       {/* <EmoteInfo/> */}
       </Grid>
 
-
-
- 
     
   </div>;
 }
